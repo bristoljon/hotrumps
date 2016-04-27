@@ -1,0 +1,48 @@
+stats {
+  position: relative;
+  top: -20px;
+}
+
+.stat p {
+  position: relative;
+  top: 20px;
+}
+
+.horizontal-slider {
+  width: 100%;
+  max-width: 500px;
+  height: 30px;
+}
+
+.handle {
+  font-size: 1.2em;
+  font-weight:bold;
+  text-align: center;
+  border: 2px solid black;
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  width: 50px;
+  height: 48px;
+  line-height: 48px;
+  border-radius: 25px;
+}
+
+.handle.active {
+  background-color: grey; }
+
+.bar {
+  top: 15px;
+  height: 20px;
+  position: relative;
+  background: #ddd;
+  border-radius: 7px
+}
+
+.bar-0 {
+  background-color: green
+}
+
+.bar-1 {
+  background-color: red
+}
